@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stopwatch</title>
+  <link rel="stylesheet" href="stopwatch.css">
+</head>
+<body>
+
+<!-- Stopwatch Container -->
+<div class="container">
+  <!-- Heading -->
+  <h1 class="heading">Stopwatch</h1>
+  
+  <!-- Timer Display -->
+  <div class="circle-timer">
+    <div id="timerDisplay" class="timer-text" aria-label="Current Time Display">00:00:00</div>
+  </div>
+  
+  <!-- Button Controls -->
+  <div class="btn-container">
+    <button id="startBtn" class="btn btn-circle" aria-label="Start Stopwatch">
+      <span class="btn-text">Start</span>
+    </button>
+    <button id="stopBtn" class="btn btn-circle" aria-label="Stop Stopwatch">
+      <span class="btn-text">Stop</span>
+    </button>
+    <button id="resetBtn" class="btn btn-circle" aria-label="Reset Stopwatch">
+      <span class="btn-text">Reset</span>
+    </button>
+  </div>
+</div>
+
+<!-- Link to JavaScript -->
+<script src="stopwatch.js" defer></script>
+</body>
+</html>
